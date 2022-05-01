@@ -229,7 +229,7 @@ export default function Home() {
         <div className={styles.container}>
           <label>Fake NFT Token ID to Purchase: </label>
           <input
-            placeholder="0"
+            placeholder="select id"
             type="number"
             onChange={(e) => setFakeNftTokenId(e.target.value)}
           />

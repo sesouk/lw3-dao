@@ -136,7 +136,7 @@ export default function Home() {
       const signer = await getProviderOrSigner(true)
       const daoContract = getDaoContractInstance(signer)
 
-      const txn = await daoContract.exectuteProposal(proposalId)
+      const txn = await daoContract.executeProposal(proposalId)
       setLoading(true)
       await txn.wait()
       setLoading(false)

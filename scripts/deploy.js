@@ -15,7 +15,7 @@ async function main() {
     fakeNftMarketplace.address,
     CRYPTODEVS_NFT_CONTRACT_ADDRESS,
     {
-      value: ethers.utils.parseEther("0.1"),
+      value: ethers.utils.parseEther("0.25"),
     }
   );
   await cryptoDevsDAO.deployed();
